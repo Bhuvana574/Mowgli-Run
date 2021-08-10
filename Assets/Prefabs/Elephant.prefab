@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1099302629092091997}
   m_Layer: 0
   m_Name: Elephant
-  m_TagString: Untagged
+  m_TagString: Elephant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb7b4739e8e37d2439223ca1ee8ed32d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 5
+  movespeed: 1
 --- !u!61 &2051974230836934639
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -144,4 +144,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4

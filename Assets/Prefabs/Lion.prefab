@@ -12,10 +12,11 @@ GameObject:
   - component: {fileID: 5925079088299351970}
   - component: {fileID: -6198275150877214135}
   - component: {fileID: 7561532061955944886}
-  - component: {fileID: -5377391866676849044}
+  - component: {fileID: 2515782735614436292}
+  - component: {fileID: -3985162288167215758}
   m_Layer: 0
   m_Name: Lion
-  m_TagString: Untagged
+  m_TagString: Lion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb7b4739e8e37d2439223ca1ee8ed32d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 5
+  movespeed: 3
 --- !u!50 &7561532061955944886
 Rigidbody2D:
   serializedVersion: 4
@@ -118,8 +119,8 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &-5377391866676849044
+  m_Constraints: 4
+--- !u!61 &2515782735614436292
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,7 +133,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.19859397}
+  m_Offset: {x: -0.5328002, y: 0.7521889}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -143,5 +144,17 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.5599995, y: 4.0928116}
+  m_Size: {x: 6.3816376, y: 3.3341966}
   m_EdgeRadius: 0
+--- !u!114 &-3985162288167215758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44553703982803044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a0ca63022a7bb4087ca7de0dda237e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
